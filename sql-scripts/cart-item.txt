@@ -1,0 +1,19 @@
+--drop table cart_items
+
+--create table cart_items (
+--	id uuid primary key default uuid_generate_v4(),
+--	product_id uuid not null,
+--	count integer not null
+--);
+
+--alter table cart_items add column cart_id uuid references carts(id);
+
+--insert into cart_items (product_id, cart_id, count) values
+--('2064553a-6f8b-4dad-a7b1-1d687b669655', 'cbc10697-1f74-44bb-8657-23324eca4760', 2),
+--('cbd4eb85-db6b-43d5-a4b5-335fcfe412fd', 'cbc10697-1f74-44bb-8657-23324eca4760', 1),
+--('a05aa40a-f06a-4a5a-8769-541e831e59d7', 'cbc10697-1f74-44bb-8657-23324eca4760', 1),
+--('b754d99d-49a4-4358-ab89-efb574d5da6e', 'cbc10697-1f74-44bb-8657-23324eca4760', 3),
+--('bc0ed78c-4c7b-458d-beab-6bda1c81a67b', 'cbc10697-1f74-44bb-8657-23324eca4760', 4),
+--('eb2e8389-13f1-4bcf-86b1-3ecd6702121a', '5541cd31-0837-4e11-83c6-201ca517fef0', 1),
+--('aa995683-2c2a-4add-b7b0-70f4d2f1fae8', '2af38866-5da2-4679-a59d-d33f48b49898', 1),
+--('3596a72b-c0ce-4f18-904d-a372c3b77115', '2af38866-5da2-4679-a59d-d33f48b49898', 1)
