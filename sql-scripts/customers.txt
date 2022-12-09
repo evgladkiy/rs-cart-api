@@ -1,0 +1,18 @@
+--create extension if not exists "uuid-ossp"
+
+--drop table customers
+
+--create table customers (
+--	id uuid not null default uuid_generate_v4() primary key,
+--	first_name text not null,
+--	last_name text not null,
+--	adress text not null,
+--	country text not null,
+--	email text not null,
+--	phone text not null
+--)
+
+--insert into customers (first_name, last_name, adress, country, email, phone) values
+--('Margie', 'Hernandez', '174 Lloyd Court, Hamilton, Washington, 6761', 'USA', 'margiehernandez@besto.com', '+1 (889) 402-2644'),
+--('Valentine', 'Solomon', '563 Revere Place, Hartsville/Hartley, North Dakota, 245', 'USA', 'valentinesolomon@besto.com', '+1 (849) 419-3937'),
+--('Susie', 'May', '402 Debevoise Avenue, Darlington, Virgin Islands, 3554', 'USA', 'susiemay@besto.com', '+1 (974) 432-3916')

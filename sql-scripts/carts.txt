@@ -1,0 +1,14 @@
+--drop table carts
+
+--create table carts (
+--	id uuid not null default uuid_generate_v4() primary key,
+--	created_at timestamp NOT NULL DEFAULT NOW(),
+--	updated_at timestamp NOT NULL DEFAULT NOW()
+--)
+
+--alter table carts add column user_id uuid references customers(id);
+
+--insert into carts (user_id) values
+--('b85ccc99-aeb4-4c85-9e3a-2e5783cbfe5b'),
+--('76cffcfa-67c9-4037-8194-8272afb297b5'),
+--('72bc33b7-f9fc-4d83-8785-e65e897f4ad3')
