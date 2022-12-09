@@ -1,8 +1,10 @@
 export type Product = {
-  id: string,
-  title: string,
-  description: string,
-  price: number,
+  readonly id: string;
+  readonly title: string;
+  readonly description: string;
+  readonly price: number,
+  readonly weight: number,
+  readonly img: string;
 };
 
 
